@@ -8,6 +8,7 @@ import About from "../Pages/About";
 import Contact from "../Pages/Contact";
 import Signup from "../Pages/Signup";
 import Login from "../Pages/Login";
+import PageNtf from "../Pages/PageNtf"; // Uncomment if you want to use a 404 page
  
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
+        <Route path="*" element={<PageNtf />} /> 
       </Routes>
     </Router>
   );
