@@ -1,0 +1,7 @@
+/* Change dot size */
+.swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+  background: #aaa;
+  opacity: 1;
+}
