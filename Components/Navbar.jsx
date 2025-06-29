@@ -5,7 +5,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div>
+    <div className="sticky h-20 top-0 z-50">
       <nav className="bg-green-700 p-6">
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-white text-lg font-bold">SeedShop</div>

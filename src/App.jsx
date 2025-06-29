@@ -8,7 +8,7 @@ import About from "../Pages/About";
 import Contact from "../Pages/Contact";
 import Signup from "../Pages/Signup";
 import Login from "../Pages/Login";
-import PageNtf from "../Pages/PageNtf"; // Uncomment if you want to use a 404 page
+import PageNtf from "../Pages/PageNtf"; 
  
 const App = () => {
   return (
