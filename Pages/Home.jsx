@@ -5,9 +5,11 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 
-import banner1 from "../src/assets/images/banner1.webp";
-import banner2 from "../src/assets/images/banner2.webp";
-import banner3 from "../src/assets/images/banner3.webp";
+
+import banner1 from "/src/assets/images/banner1.webp";
+import banner2 from "/src/assets/images/banner2.webp";
+import banner3 from "/src/assets/images/banner3.webp";
+
 
 import { useNavigate } from "react-router-dom";
 
