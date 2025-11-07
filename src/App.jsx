@@ -11,6 +11,8 @@ import Contact from "../Pages/Contact";
 import Signup from "../Pages/Signup";
 import Login from "../Pages/Login";
 import PageNtf from "../Pages/PageNtf"; 
+import Footer from "../Components/Footer";
+import AddProduct from "../Components/AddProduct";
  
 const App = () => {
   return (
@@ -20,11 +22,14 @@ const App = () => {
         <Route path="/" element={<Home/>} />
         <Route path="/products" element={<Products />} />
         <Route path="/about" element={<About />} />
+        <Route path="/add-product" element={<AddProduct />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="*" element={<PageNtf />} /> 
+        <Route path="/add-product" element={<AddProduct />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };
