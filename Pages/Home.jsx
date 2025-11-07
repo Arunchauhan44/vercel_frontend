@@ -5,12 +5,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 
-import Img from "../src/assets/images/product.jpg";
-import Img2 from "../src/assets/images/home.jpg";
-import Banner from "../src/assets/images/Banner.webp";
-import Banner1 from "../src/assets/images/Banner1.webp";
-import Banner2 from "../src/assets/images/Banner_2.webp";
-import Banner3 from "../src/assets/images/Banner3.webp";
+import banner1 from "../src/assets/images/banner1.webp";
+import banner2 from "../src/assets/images/banner2.webp";
+import banner3 from "../src/assets/images/banner3.webp";
 
 import { useNavigate } from "react-router-dom";
 
@@ -35,9 +32,6 @@ const Home = () => {
 
   return (
     <div>
-      {/* <div className="flex justify-center items-center  bg-green-200">
-        <img src={Banner1} width="100%" height="100%" alt="banner" />
-      </div> */}
 
       <div className="w-full mx-auto ">
         <Swiper
@@ -47,13 +41,13 @@ const Home = () => {
           pagination={{ clickable: true }}
         >
           <SwiperSlide>
-            <img src={Banner1} width="100%" height="100%" alt="Slide 1" />
+            <img src={banner1} width="100%" height="100%" alt="Slide 1" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Banner2} width="100%" height="100%" alt="Slide 2" />
+            <img src={banner2} width="100%" height="100%" alt="Slide 2" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Banner3} width="100%" height="100%" alt="Slide 3" />
+            <img src={banner3} width="100%" height="100%" alt="Slide 3" />
           </SwiperSlide>
         </Swiper>
       </div>
